@@ -1,73 +1,37 @@
-# (Replace_with_your_title) Cookbook
+## Model Meets Reality (MMR): A Cross-Comparison of DP-SCREAM and WRF Against ARM Observations
 
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ARM-Development/arm-cookbook-template/main?labpath=notebooks)
-
-This ARM Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
-
-## Motivation
-
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+* **Science question(s)**: The upstart DP-SCREAM model is ready to rumble with the long-in-the-tooth WRF model–which one compares better to observations? How do differences in resolution and physics impact cloud representation?
+* **Project Scope**: We have prepared DP-SCREAM simulations to pair with WRF sims from LASSO-ShCu for three cases. ARM has dozens of measurements that can be used to examine the representativeness of these simulations. Cross compare the two models and put their differences in context with the observations. 
+* **Datasets**:
+- DP-SCREAM (dx=3 km) and WRF (dx=100 m) for 9-Jul-2018, 17-May-2019, & 29-Sep-2019
+- sgplassohighfreqobsC1.c1: cloud-base height at 5 stations, LWP, LCL, cloud fraction from KAZR-ARSCL
+- sgpcldfraccogs10mC1.c1: cloud fraction from photogrammetry–bye bye bugs!
+- sgplassodiagobsmod8C1.m1: various prepared obs like CF from TSI, boundary layer T and Q
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. *Acknowledge primary content authors here*
-
-### Contributors
-
-<a href="https://github.com/ARM-Development/arm-cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ARM-Development/arm-cookbook-template" />
-</a>
+Pappu Paul  
+ORCID: 0000-0003-0060-849X
+Luojie (Roger) Dong 
+ORCID: 0009-0007-7911-6012
+Emmanuel Kipchirchir 
+ORID: 0009-0008-9351-1446
+Luke Heim 
+ORCID: 0009-0005-1674-8106
+Sining Niu  
+ORCID: 0000-0002-3389-0076
+yijia Sun 
+ORCID: 0000-0003-1539-4877
+Maggie Powell 
+ORCID: 0009-0008-8826-1948
+William Gustafson 
+ORCiD: 0000-0001-9927-1393
+Lucia Liu  
+ORCID: 0000-0002-6958-2868 
+Jing Li 
+ORCID: 0009-0001-2473-0468
 
 ## Structure
-(State one or more sections that will comprise the notebook. E.g., *This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."* Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-(Add content for this section, e.g., "Example workflows include ... ")
-
-## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
-
-### Running on Binder
-
-The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/), which enables the execution of a
-[Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Cookbooks chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
-and even change the example programs. You’ll see that the code cells
-have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
-
-### Running on Your Own Machine
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
-
-(Replace "arm-cookbook-example" with the title of your cookbooks)   
-
-1. Clone the `https://github.com/ARM-Development/arm-cookbook-example` repository:
-
-   ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/cookbook-example.git
-    ```  
-1. Move into the `arm-cookbook-example` directory
-    ```bash
-    cd arm-cookbook-example
-    ```  
-1. Create and activate your conda environment from the `environment.yml` file
-    ```bash
-    conda env create -f environment.yml
-    conda activate arm-cookbook-example
-    ```  
-1.  Move into the `notebooks` directory and start up Jupyterlab
-    ```bash
-    cd notebooks/
-    jupyter lab
-    ```
+Compiled analysis of the group is within main_analysis.ipynb and a preliminary ML analysis for feature importance using Random Forest is in ML_analysis.ipynb
+Scratch notebooks with exploration are within notebooks.
+All analysis was done using the base environment on ARM Juypter Hub.
