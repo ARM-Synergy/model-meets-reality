@@ -10,26 +10,26 @@
 
 ## Authors
 
-Pappu Paul  
-ORCID: 0000-0003-0060-849X
-Luojie (Roger) Dong 
-ORCID: 0009-0007-7911-6012
-Emmanuel Kipchirchir 
-ORID: 0009-0008-9351-1446
-Luke Heim 
-ORCID: 0009-0005-1674-8106
-Sining Niu  
-ORCID: 0000-0002-3389-0076
-yijia Sun 
-ORCID: 0000-0003-1539-4877
-Maggie Powell 
-ORCID: 0009-0008-8826-1948
-William Gustafson 
-ORCiD: 0000-0001-9927-1393
-Lucia Liu  
-ORCID: 0000-0002-6958-2868 
-Jing Li 
-ORCID: 0009-0001-2473-0468
+- Pappu Paul  
+-- ORCID: 0000-0003-0060-849X
+- Luojie (Roger) Dong 
+-- ORCID: 0009-0007-7911-6012
+- Emmanuel Kipchirchir 
+-- ORID: 0009-0008-9351-1446
+- Luke Heim 
+-- ORCID: 0009-0005-1674-8106
+- Sining Niu  
+-- ORCID: 0000-0002-3389-0076
+- yijia Sun 
+-- ORCID: 0000-0003-1539-4877
+- Maggie Powell 
+-- ORCID: 0009-0008-8826-1948
+- William Gustafson 
+-- ORCiD: 0000-0001-9927-1393
+- Lucia Liu  
+-- ORCID: 0000-0002-6958-2868 
+- Jing Li 
+-- ORCID: 0009-0001-2473-0468
 
 ## Structure
 Compiled analysis of the group is within main_analysis.ipynb and a preliminary ML analysis for feature importance using Random Forest is in ML_analysis.ipynb
