@@ -32,6 +32,6 @@
 -- ORCID: 0009-0001-2473-0468
 
 ## Structure
-Compiled analysis of the group is within main_analysis.ipynb and a preliminary ML analysis for feature importance using Random Forest is in ML_analysis.ipynb
-Scratch notebooks with exploration are within notebooks.
-All analysis was done using the base environment on ARM Juypter Hub.
+- Compiled analysis of the group is within main_analysis.ipynb and a preliminary ML analysis for feature importance using Random Forest is in ML_analysis.ipynb
+- Scratch notebooks with exploration are within notebooks.
+- All analysis was done using the base environment on ARM Juypter Hub.
