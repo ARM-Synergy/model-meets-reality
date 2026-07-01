@@ -1,0 +1,44 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Model Meets Reality (MMR) - A Cross-Comparison of DP-SCREAM and WRF Against ARM Observations
+  description: 2026 ARM Big Open Data Summer School Project
+  github: https://github.com/ARM-Synergy/model-meets-reality/
+  # keywords: []
+  authors:
+    - name: Maggie Powell
+      orcid: 0009-0008-8826-1948
+    - name: Yijia Sun
+      orcid: 0000-0003-1539-4877
+    - name: Pappu Paul
+      orcid: 0000-0003-0060-849X
+    - name: Sijia (Lucia) Liu
+      orcid: 0000-0002-6958-2868
+    - name: Emmanuel Kipchirchir
+      orcid: 0009-0008-9351-1446
+    - name: Luojie (Roger) Dong
+      orcid: 0009-0007-7911-6012
+    - name: Jing Li
+      orcid: 0009-0001-2473-0468
+    - name: Luke Heim
+      orcid: 0009-0005-1674-8106
+    - name: Sining Niu
+      orcid: 0000-0002-3389-0076
+    - name: William (Bill) Gustafson
+      orcid: 0000-0001-9927-1393
+    - name: Hsi-Yen Ma
+      orcid: 0000-0002-9628-1278
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Project Development
+      children:
+        - file: ML_analysis.ipynb
+        - file: main_analysis.ipynb
+site:
+  options:
+    logo: notebooks/images/arm_logo.png
+    footer_logos:
+        ARM: notebooks/images/arm_logo.png

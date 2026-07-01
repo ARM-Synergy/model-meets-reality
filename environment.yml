@@ -1,20 +1,19 @@
-name: arm-cookbook-dev
+name: arm-summer-school-2026-dev
 channels:
   - conda-forge
-  - defaults
-  - pyviz
 dependencies:
-  - python=3.9
-  - arm_pyart
-  - matplotlib
+  - python=3.11
+  - mystmd<1.3.21
+  - cookiecutter
+  - act-atmos
   - jupyterlab
+  - arm_pyart
   - cartopy
-  - numpy
-  - dask
-  - distributed
-  - xarray
-  - pandas
-  - fiona
-  - pip
-  - pip:
-    - -r doc-requirements.txt
+  - matplotlib
+  - pydda
+  - jaxopt
+  - xradar
+  - tobac
+  - scikit-learn
+  - pytorch
+  - pytz
