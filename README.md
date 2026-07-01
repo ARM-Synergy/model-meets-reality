@@ -1,4 +1,10 @@
-## Model Meets Reality (MMR): A Cross-Comparison of DP-SCREAM and WRF Against ARM Observations
+<img src="/notebooks/images/arm_logo.png" width=500 alt="ARM Logo"></img>
+
+# Model Meets Reality (MMR): A Cross-Comparison of DP-SCREAM and WRF Against ARM Observations
+
+![arms-race](/notebooks/images/model-meets-reality.jpg)
+
+## [2026 ARM Summer School Project](https://arm-development.github.io/arm-summer-school-2026/)
 
 * **Science question(s)**: The upstart DP-SCREAM model is ready to rumble with the long-in-the-tooth WRF model–which one compares better to observations? How do differences in resolution and physics impact cloud representation?
 * **Project Scope**: We have prepared DP-SCREAM simulations to pair with WRF sims from LASSO-ShCu for three cases. ARM has dozens of measurements that can be used to examine the representativeness of these simulations. Cross compare the two models and put their differences in context with the observations. 
@@ -35,3 +41,7 @@
 - Compiled analysis of the group is within main_analysis.ipynb and a preliminary ML analysis for feature importance using Random Forest is in ML_analysis.ipynb
 - Scratch notebooks with exploration are within notebooks.
 - All analysis was done using the base environment on ARM Juypter Hub.
+
+## Final Presentation
+
+- [Link to Final Presentation](./model-meets-reality-cross-comparison-dpscream-wrf.pdf)
