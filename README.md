@@ -2,6 +2,8 @@
 
 # Model Meets Reality (MMR): A Cross-Comparison of DP-SCREAM and WRF Against ARM Observations
 
+[![DOI](https://zenodo.org/badge/1246820879.svg)](https://doi.org/10.5281/zenodo.21113436)
+
 ![arms-race](/notebooks/images/model-meets-reality.jpg)
 
 ## [2026 ARM Summer School Project](https://arm-development.github.io/arm-summer-school-2026/)
